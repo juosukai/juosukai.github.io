@@ -1,0 +1,20 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            machinist
+tagline:          'mac systems administration'
+description:      'noun. a person who operates a machine, in this case mac os x computers and linux servers. By <a href="https://twitter.com/juosukai" target="_blank">@juosukai</a>.'
+url:              http://josukai.github.io
+baseurl:          /
+
+author:
+  name:           'Jussi Uosukainen'
+  url:            https://twitter.com/juosukai
+
+paginate:         5
