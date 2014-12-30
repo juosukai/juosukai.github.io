@@ -1,15 +1,17 @@
 ---
 layout: post
 title: Finmacadmin 2014.2
+comments: True
+
 ---
 
 The second Finmacdmin-meeting was planned at MacSysadmin 2014 in Gothenburg, and mainly arranged by Robin Laurén at [Reaktor](http://www.reaktor.com).
 
 We managed to have several very interesting presentations:
 
-* Joel Manserus from mcare talked about the AppleCare products
-* Hannes Juutilainen built a local Munki system in just under 15 minutes
-* Janne Lehikoinen talked about git in systems administration
+* Joel Manserus from [mcare](http://www.mcare.fi) talked about the AppleCare products
+* [Hannes Juutilainen](https://github.com/hjuutilainen?tab=activity) built a local Munki system in just under 15 minutes
+* Janne Lehikoinen from [Tieto](http://www.tieto.fi/) talked about git in systems administration
 
 ### puppet ja mac-ylläpito
 
@@ -32,6 +34,6 @@ I talked a bit about the basics of puppet in managing macs
 
 ### filevault
 
-At the end of the formal session, I presented some slides as an introduction to Filevault, and Marko Salo presented some case studies, followed by some group discussion
+At the end of the formal session, I presented some slides as an introduction to Filevault, and Marko Salo (from [Tieto](http://www.tieto.fi/)) presented some case studies, followed by some group discussion
 
 * [introduction to filevault](/public/filevault.pdf)
