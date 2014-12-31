@@ -7,7 +7,7 @@ comments: True
 
 Every story cannot be a success story, sometimes mistakes need to be mentioned as well.
 
-Earlier in the fall I setup a client with windows 7 on a [VMWare Fusion](http://www.vmware.com/products/fusion) machine. The client was using this windows instance to run a specialized [HRV monitoring software](http://www.megaemg.com/products/hrv-scanner/) with external Bluetooth gadgets to get data into the machine. I actually started by installing [Virtualbox](https://www.virtualbox.org/), but when I found myself writing LaunchDaemons which disabled Bluetooth on Mac OS X completely and handed the whole device over to Virtualbox I realized that maybe going with Fusion would not be to expensive. Luckily, moving from virtualbox to Fusion was simple.
+Earlier in the fall I setup a client with Windows 7 on a [VMWare Fusion](http://www.vmware.com/products/fusion) machine. The client was using this Windows instance to run a specialized [HRV monitoring software](http://www.megaemg.com/products/hrv-scanner/) with external Bluetooth gadgets to get data into the machine. I actually started by installing [Virtualbox](https://www.virtualbox.org/), but when I found myself writing LaunchDaemons which disabled Bluetooth on Mac OS X completely and handed the whole device over to Virtualbox I realized that maybe going with Fusion would not be to expensive. Luckily, moving from virtualbox to Fusion was simple.
 
 But Fusion was by no means perfect either, especially the Bluetooth connection needed constant reboots and resets.
 
