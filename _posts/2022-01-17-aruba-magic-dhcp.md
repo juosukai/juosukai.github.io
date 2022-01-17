@@ -20,7 +20,7 @@ Things actually worked pretty darn well for a year. But as we grew from 10 peopl
 
 Early this year we hit another problem: the number of DHCP timeouts was growing very quickly, especially with the evening shift. I checked the AP handing out the addresses and since there were only ~1000 addresses leased out: (run the following command over ssh CLI, copypaste the resulting into a code editor, see number of last row)
 
-{% highlight bash %}
+{% highlight %}
 accesspoint-04# sh dhcp-allocation
 
 ---------------------/etc/dnsmasq.conf--------------------
@@ -77,4 +77,4 @@ dhcp-lease-max=2000
 
 {% endhighlight %}
 
-So we were hitting the limits of the dnsmasq service Aruba is using to create the "magic" VLAN. Turns out the onöy real fix to our situation is building proper VLANs and handing off DHCP duties to a proper server (or firewall, as is more likely). 
+So we were hitting the limits of the dnsmasq service Aruba is using to create the "magic" VLAN. Turns out the only real fix to our situation is building proper VLANs and handing off DHCP duties to a proper server (or firewall, as is more likely). 

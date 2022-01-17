@@ -32,11 +32,17 @@ github_username:  juosukai
 cover: assets/cover.jpg
 
 # Build settings
-#theme: jekyll-theme-hydure
 remote_theme: zivong/jekyll-theme-hydure
+theme: jekyll-theme-hydure
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-theme-hydure
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
 
 # Exclude from processing.
 # The following items will not be processed, by default.
