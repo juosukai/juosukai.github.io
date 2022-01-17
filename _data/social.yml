@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto:jussi.uosukainen@iki.fi
+  icon: fas fa-envelope
+- title: Twitter
+  url: https://twitter.com/juosukai
+  icon: fab fa-twitter
+- title: GitHub
+  url: https://github.com/juosukai
+  icon: fab fa-github
