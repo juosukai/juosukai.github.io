@@ -20,7 +20,7 @@ Things actually worked pretty darn well for a year. But as we grew from 10 peopl
 
 Early this year we hit another problem: the number of DHCP timeouts was growing very quickly, especially with the evening shift. I checked the AP handing out the addresses and since there were only ~1000 addresses leased out: (run the following command over ssh CLI, copypaste the resulting into a code editor, see number of last row)
 
-{% highlight %}
+{% highlight ini %}
 accesspoint-04# sh dhcp-allocation
 
 ---------------------/etc/dnsmasq.conf--------------------
