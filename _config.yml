@@ -9,8 +9,8 @@ relative_permalinks: true
 # Setup
 title:            machinist
 tagline:          'mac systems administration'
-description:      'noun. a person who operates a machine, in this case mac os x computers and linux servers. By <a href="https://twitter.com/juosukai" target="_blank">@juosukai</a>.'
-url:              http://josukai.github.io
+description:      'noun. a person who operates a machine. By <a href="https://twitter.com/juosukai" target="_blank">@juosukai</a>.'
+url:              http://juosukai.github.io
 baseurl:          /
 
 author:
