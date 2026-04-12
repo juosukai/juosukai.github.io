@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-IT Manager, [swappie](https://www.swappie.com)
+Head of IT Service & Operations, [Iceye](https://www.iceye.com)
 
-Partner, [core service oy](http://www.coreservice.fi)
-
-Freetime spent with family and [rugby](http://warriorsrugbyclub.org/)
+Freetime spent with family and [rugby](http://www.warriorsrugbyclub.org/)
