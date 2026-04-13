@@ -28,6 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: juosukai
 github_username:  juosukai
 cover: assets/cover.jpg
+google_analytics: G-DYSPLN9LTY
 
 # Build settings
 remote_theme: zivong/jekyll-theme-hydure
