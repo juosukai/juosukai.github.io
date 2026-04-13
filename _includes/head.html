@@ -3,13 +3,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% feed_meta %}
   {% seo %}
+
+  <link rel="preconnect" href="https://unpkg.com">
+  <link rel="preconnect" href="https://use.fontawesome.com">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+
+  {% assign cover = site.cover | default: "/assets/cover.jpg" %}
+  {% if page.cover %}
+    {% assign cover = page.cover %}
+  {% endif %}
+  <link rel="preload" as="image" href="{{ cover | relative_url }}" fetchpriority="high">
   
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
   <link rel="stylesheet" href="{{ 'assets/css/open-color.css' | relative_url }}">
   <link rel="stylesheet" href="{{ 'assets/css/hydure.css' | relative_url }}">
 
-  <script async src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
 
   {% include custom-head.html %}
 </head>
