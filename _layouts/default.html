@@ -8,10 +8,7 @@
       {% if page.cover %}
         {% assign cover = page.cover %}
       {% endif %}
-      <div class="sidebar pure-u-1 pure-u-md-1-4">
-        {% if cover %}
-          <img src="{{ cover | relative_url }}" class="sidebar-cover" alt="" fetchpriority="high">
-        {% endif %}
+      <div class="sidebar pure-u-1 pure-u-md-1-4" {% if cover %}style="background-image: url({{ cover | relative_url }});"{% endif %}>
         <div class="sidebar-shield">
           {% include header.html %}
         </div>
